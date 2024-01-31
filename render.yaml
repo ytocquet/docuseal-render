@@ -1,5 +1,6 @@
 services:
   - type: web
+    region: frankfurt
     plan: free
     name: docuseal
     env: docker
@@ -15,3 +16,4 @@ services:
 databases:
   - name: docuseal-db
     plan: free
+    region: frankfurt
